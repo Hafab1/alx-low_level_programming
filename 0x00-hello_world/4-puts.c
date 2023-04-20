@@ -1,4 +1,4 @@
-#include < stdio.h>
+#include <stdio.h>
 /**
  * main - A program that pritns using the function puts
  * Retuen: 0 (Sucess)
