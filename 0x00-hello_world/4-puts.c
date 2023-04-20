@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that pritns using the function puts
+ * main -A program that pritns using the function puts
  * Retuen: 0 (Sucess)
  */
 int main(void)
