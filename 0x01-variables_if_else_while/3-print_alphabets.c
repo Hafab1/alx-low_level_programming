@@ -1,16 +1,25 @@
-#include &lt;stdio.h&gt;
+#include <stdio.h>
 /**
-* main - prints the alphabet in lowercase, and then in uppercase,
+* main - prints the alphabet in lowercase, and then in uppercase
 * followed by a new line
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int ch;
-for (ch = &#39;a&#39;; ch &lt;= &#39;z&#39;; ch++)
-putchar(ch);
-for (ch = &#39;A&#39;; ch &lt;= &#39;Z&#39;; ch++)
-putchar(ch);
-putchar(&#39;\n&#39;);
-return (0);
+	char c;
+	char d;
+
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(c <= 'Z') {
+			putchar(d);
+			d++;
+		}
+	putchar('\n');
+	return (0);
 }
