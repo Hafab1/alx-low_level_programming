@@ -12,12 +12,15 @@ int main(void)
 	char d = 'A';
 
 	while
-		(c <= 'z') {
+		(c <= 'z')
+		{
 			putchar(c);
 			c++;
 		}
+
 	while
-		(c <= 'Z') {
+		(d <= 'Z')
+		{
 			putchar(d);
 			d++;
 		}
